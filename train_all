@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mkdir predictions_att
+mkdir predictions_cifar10
+mkdir predictions_mnist
+
+python train_mnist.py
+python train_cifar10.py
+python train_att.py
